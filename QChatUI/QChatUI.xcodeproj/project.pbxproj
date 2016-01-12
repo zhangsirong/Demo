@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E621A5F91C43EBD300068223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E621A5F81C43EBD300068223 /* main.m */; };
+		E621A5FC1C43EBD300068223 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E621A5FB1C43EBD300068223 /* AppDelegate.m */; };
+		E621A6021C43EBD300068223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E621A6001C43EBD300068223 /* Main.storyboard */; };
+		E621A6041C43EBD300068223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E621A6031C43EBD300068223 /* Assets.xcassets */; };
+		E621A6071C43EBD300068223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E621A6051C43EBD300068223 /* LaunchScreen.storyboard */; };
+		E621A6121C43EBD300068223 /* QChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E621A6111C43EBD300068223 /* QChatUITests.m */; };
+		E621A61D1C43EBD300068223 /* QChatUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E621A61C1C43EBD300068223 /* QChatUIUITests.m */; };
+		E621A62C1C43ED0300068223 /* ZSRMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E621A62B1C43ED0300068223 /* ZSRMessageCell.m */; };
+		E621A62F1C43ED7700068223 /* ZSRMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E621A62E1C43ED7700068223 /* ZSRMessageModel.m */; };
+		E621A6321C43ED8C00068223 /* ZSRMessageFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E621A6311C43ED8C00068223 /* ZSRMessageFrameModel.m */; };
+		E621A6361C43F20900068223 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E621A6351C43F20900068223 /* ViewController.m */; };
+		E621A6381C43F26400068223 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = E621A6371C43F26400068223 /* messages.plist */; };
+		E621A63B1C43FC2900068223 /* UIImage+ResizImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E621A63A1C43FC2900068223 /* UIImage+ResizImage.m */; };
+		E621A63D1C440A0C00068223 /* autoReplay.plist in Resources */ = {isa = PBXBuildFile; fileRef = E621A63C1C440A0C00068223 /* autoReplay.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E621A60E1C43EBD300068223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E621A5EC1C43EBD200068223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E621A5F31C43EBD300068223;
+			remoteInfo = QChatUI;
+		};
+		E621A6191C43EBD300068223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E621A5EC1C43EBD200068223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E621A5F31C43EBD300068223;
+			remoteInfo = QChatUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E621A5F41C43EBD300068223 /* QChatUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QChatUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E621A5F81C43EBD300068223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E621A5FA1C43EBD300068223 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E621A5FB1C43EBD300068223 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E621A6011C43EBD300068223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E621A6031C43EBD300068223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E621A6061C43EBD300068223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E621A6081C43EBD300068223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E621A60D1C43EBD300068223 /* QChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E621A6111C43EBD300068223 /* QChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QChatUITests.m; sourceTree = "<group>"; };
+		E621A6131C43EBD300068223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E621A6181C43EBD300068223 /* QChatUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QChatUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E621A61C1C43EBD300068223 /* QChatUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QChatUIUITests.m; sourceTree = "<group>"; };
+		E621A61E1C43EBD300068223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E621A62A1C43ED0300068223 /* ZSRMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSRMessageCell.h; sourceTree = "<group>"; };
+		E621A62B1C43ED0300068223 /* ZSRMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSRMessageCell.m; sourceTree = "<group>"; };
+		E621A62D1C43ED7700068223 /* ZSRMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSRMessageModel.h; sourceTree = "<group>"; };
+		E621A62E1C43ED7700068223 /* ZSRMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSRMessageModel.m; sourceTree = "<group>"; };
+		E621A6301C43ED8C00068223 /* ZSRMessageFrameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSRMessageFrameModel.h; sourceTree = "<group>"; };
+		E621A6311C43ED8C00068223 /* ZSRMessageFrameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSRMessageFrameModel.m; sourceTree = "<group>"; };
+		E621A6331C43EDC500068223 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		E621A6341C43F20900068223 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E621A6351C43F20900068223 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E621A6371C43F26400068223 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		E621A6391C43FC2900068223 /* UIImage+ResizImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizImage.h"; sourceTree = "<group>"; };
+		E621A63A1C43FC2900068223 /* UIImage+ResizImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizImage.m"; sourceTree = "<group>"; };
+		E621A63C1C440A0C00068223 /* autoReplay.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = autoReplay.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E621A5F11C43EBD300068223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E621A60A1C43EBD300068223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E621A6151C43EBD300068223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E621A5EB1C43EBD200068223 = {
+			isa = PBXGroup;
+			children = (
+				E621A5F61C43EBD300068223 /* QChatUI */,
+				E621A6101C43EBD300068223 /* QChatUITests */,
+				E621A61B1C43EBD300068223 /* QChatUIUITests */,
+				E621A5F51C43EBD300068223 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E621A5F51C43EBD300068223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E621A5F41C43EBD300068223 /* QChatUI.app */,
+				E621A60D1C43EBD300068223 /* QChatUITests.xctest */,
+				E621A6181C43EBD300068223 /* QChatUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E621A5F61C43EBD300068223 /* QChatUI */ = {
+			isa = PBXGroup;
+			children = (
+				E621A5FA1C43EBD300068223 /* AppDelegate.h */,
+				E621A5FB1C43EBD300068223 /* AppDelegate.m */,
+				E621A6391C43FC2900068223 /* UIImage+ResizImage.h */,
+				E621A63A1C43FC2900068223 /* UIImage+ResizImage.m */,
+				E621A6341C43F20900068223 /* ViewController.h */,
+				E621A6351C43F20900068223 /* ViewController.m */,
+				E621A6331C43EDC500068223 /* Constant.h */,
+				E621A62A1C43ED0300068223 /* ZSRMessageCell.h */,
+				E621A62B1C43ED0300068223 /* ZSRMessageCell.m */,
+				E621A62D1C43ED7700068223 /* ZSRMessageModel.h */,
+				E621A62E1C43ED7700068223 /* ZSRMessageModel.m */,
+				E621A6301C43ED8C00068223 /* ZSRMessageFrameModel.h */,
+				E621A6311C43ED8C00068223 /* ZSRMessageFrameModel.m */,
+				E621A6001C43EBD300068223 /* Main.storyboard */,
+				E621A6031C43EBD300068223 /* Assets.xcassets */,
+				E621A6051C43EBD300068223 /* LaunchScreen.storyboard */,
+				E621A6081C43EBD300068223 /* Info.plist */,
+				E621A5F71C43EBD300068223 /* Supporting Files */,
+			);
+			path = QChatUI;
+			sourceTree = "<group>";
+		};
+		E621A5F71C43EBD300068223 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E621A63C1C440A0C00068223 /* autoReplay.plist */,
+				E621A6371C43F26400068223 /* messages.plist */,
+				E621A5F81C43EBD300068223 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E621A6101C43EBD300068223 /* QChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E621A6111C43EBD300068223 /* QChatUITests.m */,
+				E621A6131C43EBD300068223 /* Info.plist */,
+			);
+			path = QChatUITests;
+			sourceTree = "<group>";
+		};
+		E621A61B1C43EBD300068223 /* QChatUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E621A61C1C43EBD300068223 /* QChatUIUITests.m */,
+				E621A61E1C43EBD300068223 /* Info.plist */,
+			);
+			path = QChatUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E621A5F31C43EBD300068223 /* QChatUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E621A6211C43EBD300068223 /* Build configuration list for PBXNativeTarget "QChatUI" */;
+			buildPhases = (
+				E621A5F01C43EBD300068223 /* Sources */,
+				E621A5F11C43EBD300068223 /* Frameworks */,
+				E621A5F21C43EBD300068223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QChatUI;
+			productName = QChatUI;
+			productReference = E621A5F41C43EBD300068223 /* QChatUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E621A60C1C43EBD300068223 /* QChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E621A6241C43EBD300068223 /* Build configuration list for PBXNativeTarget "QChatUITests" */;
+			buildPhases = (
+				E621A6091C43EBD300068223 /* Sources */,
+				E621A60A1C43EBD300068223 /* Frameworks */,
+				E621A60B1C43EBD300068223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E621A60F1C43EBD300068223 /* PBXTargetDependency */,
+			);
+			name = QChatUITests;
+			productName = QChatUITests;
+			productReference = E621A60D1C43EBD300068223 /* QChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E621A6171C43EBD300068223 /* QChatUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E621A6271C43EBD300068223 /* Build configuration list for PBXNativeTarget "QChatUIUITests" */;
+			buildPhases = (
+				E621A6141C43EBD300068223 /* Sources */,
+				E621A6151C43EBD300068223 /* Frameworks */,
+				E621A6161C43EBD300068223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E621A61A1C43EBD300068223 /* PBXTargetDependency */,
+			);
+			name = QChatUIUITests;
+			productName = QChatUIUITests;
+			productReference = E621A6181C43EBD300068223 /* QChatUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E621A5EC1C43EBD200068223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZSR;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hp;
+				TargetAttributes = {
+					E621A5F31C43EBD300068223 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = FJG6A73NSQ;
+					};
+					E621A60C1C43EBD300068223 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = FJG6A73NSQ;
+						TestTargetID = E621A5F31C43EBD300068223;
+					};
+					E621A6171C43EBD300068223 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = FJG6A73NSQ;
+						TestTargetID = E621A5F31C43EBD300068223;
+					};
+				};
+			};
+			buildConfigurationList = E621A5EF1C43EBD200068223 /* Build configuration list for PBXProject "QChatUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E621A5EB1C43EBD200068223;
+			productRefGroup = E621A5F51C43EBD300068223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E621A5F31C43EBD300068223 /* QChatUI */,
+				E621A60C1C43EBD300068223 /* QChatUITests */,
+				E621A6171C43EBD300068223 /* QChatUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E621A5F21C43EBD300068223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E621A63D1C440A0C00068223 /* autoReplay.plist in Resources */,
+				E621A6381C43F26400068223 /* messages.plist in Resources */,
+				E621A6071C43EBD300068223 /* LaunchScreen.storyboard in Resources */,
+				E621A6041C43EBD300068223 /* Assets.xcassets in Resources */,
+				E621A6021C43EBD300068223 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E621A60B1C43EBD300068223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E621A6161C43EBD300068223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E621A5F01C43EBD300068223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E621A6361C43F20900068223 /* ViewController.m in Sources */,
+				E621A5FC1C43EBD300068223 /* AppDelegate.m in Sources */,
+				E621A6321C43ED8C00068223 /* ZSRMessageFrameModel.m in Sources */,
+				E621A62F1C43ED7700068223 /* ZSRMessageModel.m in Sources */,
+				E621A5F91C43EBD300068223 /* main.m in Sources */,
+				E621A63B1C43FC2900068223 /* UIImage+ResizImage.m in Sources */,
+				E621A62C1C43ED0300068223 /* ZSRMessageCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E621A6091C43EBD300068223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E621A6121C43EBD300068223 /* QChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E621A6141C43EBD300068223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E621A61D1C43EBD300068223 /* QChatUIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E621A60F1C43EBD300068223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E621A5F31C43EBD300068223 /* QChatUI */;
+			targetProxy = E621A60E1C43EBD300068223 /* PBXContainerItemProxy */;
+		};
+		E621A61A1C43EBD300068223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E621A5F31C43EBD300068223 /* QChatUI */;
+			targetProxy = E621A6191C43EBD300068223 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E621A6001C43EBD300068223 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E621A6011C43EBD300068223 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E621A6051C43EBD300068223 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E621A6061C43EBD300068223 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E621A61F1C43EBD300068223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E621A6201C43EBD300068223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E621A6221C43EBD300068223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QChatUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhang.QChatUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E621A6231C43EBD300068223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QChatUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhang.QChatUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E621A6251C43EBD300068223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhang.QChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QChatUI.app/QChatUI";
+			};
+			name = Debug;
+		};
+		E621A6261C43EBD300068223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhang.QChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QChatUI.app/QChatUI";
+			};
+			name = Release;
+		};
+		E621A6281C43EBD300068223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QChatUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhang.QChatUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QChatUI;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E621A6291C43EBD300068223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QChatUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhang.QChatUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QChatUI;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E621A5EF1C43EBD200068223 /* Build configuration list for PBXProject "QChatUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E621A61F1C43EBD300068223 /* Debug */,
+				E621A6201C43EBD300068223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E621A6211C43EBD300068223 /* Build configuration list for PBXNativeTarget "QChatUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E621A6221C43EBD300068223 /* Debug */,
+				E621A6231C43EBD300068223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E621A6241C43EBD300068223 /* Build configuration list for PBXNativeTarget "QChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E621A6251C43EBD300068223 /* Debug */,
+				E621A6261C43EBD300068223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E621A6271C43EBD300068223 /* Build configuration list for PBXNativeTarget "QChatUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E621A6281C43EBD300068223 /* Debug */,
+				E621A6291C43EBD300068223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E621A5EC1C43EBD200068223 /* Project object */;
+}
